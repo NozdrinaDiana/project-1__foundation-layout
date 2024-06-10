@@ -1,0 +1,16 @@
+$color-primary: #fff;
+$color-secondary: #F3C6BD;
+$color-accent: #3040C4;
+$color-text: #2B292D;
+
+@mixin for-large-up {
+    @media screen and (min-width: 400px) {
+        @content;
+    }
+}
+
+@mixin for-extra-small {
+    @media screen and (max-width: 399px) {
+        @content;
+    }
+}

@@ -1,0 +1,12 @@
+@import 'variables.scss';
+
+.button-action {
+    height: 48px;
+    width: 160px;
+    border: none;
+    border-radius: 2px;
+    background-color: $color-accent;
+    color: $color-primary;
+    font-weight: 700;
+    font-size: 18px;
+}
