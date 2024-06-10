@@ -8,6 +8,7 @@
         padding-top: 39px; 
         background-color: $color-secondary; 
     }
+}
 
 .header {
     display: flex;
@@ -21,110 +22,109 @@
         width: 1140px;
         height: 62px;
         background-color: $color-secondary;
-    }   
-    .logo {
-        display: flex;
+    }  
+} 
 
-        &__img {
-            height: 48px;
-            width: 48px;
-            margin-left: 15px;
-            margin-right: 13px;
-            
-            @include for-large-up {
-                height: 60px;
-                width: 60px;
-                margin: auto;
-                margin-right: 15px;
-            }
-        }
-            
-        &__text {
-            display: flex;
-            align-items: center;
+.logo {
+    display: flex;
 
-            @include for-large-up {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-        
-
-            .logo__name {
-                font-size: 20px;
-                line-height: 25px;
-                font-weight: 700;
-
-            }
-
-            .logo__description {
-                display: none;
-
-                @include for-large-up {
-                    display: block;
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: $color-text;
-                    opacity: 0.6;
-                }
-            } 
-        }
-    }
-
-    .navigation {
-        display: none;
-
-       @include for-large-up {
-            display: block;
-            margin-left: auto;
-            margin-top: 7px;
-            margin-right: 75px;
-        }
-
-        &__item {
-            margin-right: 50px;
-            color: $color-text;
-            text-decoration: none;
-            line-height: 25px;
-            font-size: 18px;
-
-            &:last-child {
-                margin-right: 0;
-            }
-        }
-
-        &__arrow {
-                display: inline-block;
-                height: 5px;
-                width: 8px;
-                margin-left: 11px;
-                background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-        }
-       
-        &__item_selected {
-            font-weight: 700;
-        }
-    }
-
-    &__button {
-        display: none;
-
-        @include for-large-up {
-            display: block;
-        }
-    }
-
-    .header__menu-button {
-        height: 100%;
-        width: 58px;
-        margin-left: auto;
-        border: none;
-        border-left: 1px solid #00000026;
-        background: transparent;
-
-        @include for-large-up {
-            display: none;
-        }
+&__img {
+    height: 48px;
+    width: 48px;
+    margin-left: 15px;
+    margin-right: 13px;
+    
+    @include for-large-up {
+        height: 60px;
+        width: 60px;
+        margin: auto;
+        margin-right: 15px;
     }
 }
+    
+&__text {
+    display: flex;
+    align-items: center;
+
+    @include for-large-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+&__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+
+}
+
+&__description {
+    display: none;
+
+    @include for-large-up {
+        display: block;
+        font-size: 18px;
+        line-height: 25px;
+        color: $color-text;
+        opacity: 0.6;
+    }
+} 
+}
+
+.navigation {
+    display: none;
+
+    @include for-large-up {
+        display: block;
+        margin-left: auto;
+        margin-top: 7px;
+        margin-right: 75px;
+    }
+
+    &__item {
+        margin-right: 50px;
+        color: $color-text;
+        text-decoration: none;
+        line-height: 25px;
+        font-size: 18px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__arrow {
+            display: inline-block;
+            height: 5px;
+            width: 8px;
+            margin-left: 11px;
+            background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    }
+    
+    &__item_selected {
+        font-weight: 700;
+    }
+}
+
+.header__button {
+    display: none;
+
+    @include for-large-up {
+        display: block;
+    }
+}
+
+.header__menu-button {
+    height: 100%;
+    width: 58px;
+    margin-left: auto;
+    border: none;
+    border-left: 1px solid $color-dark-border;
+    background: transparent;
+
+    @include for-large-up {
+        display: none;
+    }
 }
