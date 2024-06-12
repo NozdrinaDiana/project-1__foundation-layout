@@ -6,6 +6,7 @@ $color-light: #F4F5F7;
 $color-light-border: #E3E3E3;
 $color-green: #009B4D;
 $color-blue: #3142C6;
+$color-blue-communication: #0189D1;
 $color-blue-background:#3141C5;
 $color-dark: #2B292D26;
 $color-light-grey: #2B292D99;
@@ -16,6 +17,8 @@ $color-blue-border: #0185D0;
 $color-black: #000;
 $color-light-background: #fcf0e366;
 $color-orange: #F1592B;
+
+
 
 @mixin for-large-up {
     @media screen and (min-width: 400px) {
