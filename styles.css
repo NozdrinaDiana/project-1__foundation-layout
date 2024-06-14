@@ -21,7 +21,6 @@
 
 .header {
   display: flex;
-  align-items: center;
   height: 64px;
   background-color: #fff;
 }
@@ -384,8 +383,7 @@
     position: relative;
     width: 1140px;
     margin: auto;
-    margin-top: 84px;
-    padding-bottom: 77px;
+    padding: 76px 0 77px 0;
   }
 }
 .headline__content {
@@ -404,7 +402,7 @@
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
-  letter-spacing: -0.3125px;
+  letter-spacing: -0.31px;
 }
 @media screen and (min-width: 400px) {
   .headline__title {
@@ -419,15 +417,14 @@
 }
 
 .headline__description {
+  margin: 0;
   margin-top: 24px;
-  margin-bottom: 0;
   font-size: 24px;
   line-height: 34px;
 }
 @media screen and (min-width: 400px) {
   .headline__description {
     margin-top: 34px;
-    margin-bottom: 0;
     height: 102px;
     width: 456px;
     z-index: 1;
@@ -435,7 +432,7 @@
 }
 
 .headline__actions {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 @media screen and (min-width: 400px) {
   .headline__actions {
@@ -482,6 +479,7 @@
     position: relative;
     right: -105px;
     margin-left: auto;
+    margin-bottom: 0;
     top: 0;
     width: 796px;
     height: 448px;
@@ -730,6 +728,8 @@
 .order__image {
   display: block;
   margin: auto;
+  max-height: 220px;
+  width: 200px;
 }
 @media screen and (min-width: 400px) {
   .order__image {
@@ -757,7 +757,7 @@
   line-height: 32px;
 }
 .order__form {
-  margin-top: 40px;
+  margin-top: 79px;
 }
 @media screen and (min-width: 400px) {
   .order__form {

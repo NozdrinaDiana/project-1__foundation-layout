@@ -14,6 +14,8 @@
 &__image {
     display: block;
     margin: auto;
+    max-height: 220px;
+    width: 200px;
 
     @include for-large-up {
         margin: 0;
@@ -44,7 +46,7 @@
 }
 
 &__form {
-    margin-top: 40px;
+    margin-top: 79px;
 
     @include for-large-up {
         display: flex;
