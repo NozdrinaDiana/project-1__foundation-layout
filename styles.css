@@ -381,8 +381,8 @@
   .headline {
     display: flex;
     position: relative;
-    width: 1140px;
-    margin: 76px auto 77px auto;
+    width: 1245px;
+    margin: 76px 25px 77px 130px;
   }
 }
 .headline__content {
@@ -398,6 +398,7 @@
 
 .headline__title {
   margin: 0;
+  height: 205px;
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -476,7 +477,6 @@
 @media screen and (min-width: 400px) {
   .headline__banner {
     position: relative;
-    right: -105px;
     margin-top: 8px;
     margin-left: auto;
     margin-bottom: 0;
