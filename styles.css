@@ -478,6 +478,7 @@
   .headline__banner {
     position: relative;
     right: -105px;
+    margin-top: 8px;
     margin-left: auto;
     margin-bottom: 0;
     top: 0;
@@ -728,14 +729,15 @@
 .order__image {
   display: block;
   margin: auto;
-  max-height: 220px;
+  height: 220px;
   width: 200px;
 }
 @media screen and (min-width: 400px) {
   .order__image {
     margin: 0;
     margin-right: 122px;
-    min-width: 269px;
+    min-width: 270px;
+    min-height: 297px;
   }
 }
 @media screen and (min-width: 400px) {

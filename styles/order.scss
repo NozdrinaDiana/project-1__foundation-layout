@@ -14,13 +14,14 @@
 &__image {
     display: block;
     margin: auto;
-    max-height: 220px;
+    height: 220px;
     width: 200px;
 
     @include for-large-up {
         margin: 0;
         margin-right: 122px;
-        min-width: 269px;
+        min-width: 270px;
+        min-height: 297px;
         }
 }
 
