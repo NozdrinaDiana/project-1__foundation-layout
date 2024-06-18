@@ -80,6 +80,7 @@
     font-weight: 700;
     font-size: 18px;
     margin-top: 15px;
+    cursor: pointer;
 
     @include for-extra-small {
         width: 100%;
@@ -92,7 +93,7 @@
 }
       
 .headline__banner {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 33px;
 
     @include for-large-up {

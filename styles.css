@@ -7,6 +7,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .top-section {
@@ -88,26 +89,26 @@
     margin-top: 7px;
     margin-right: 75px;
   }
-}
-.navigation__item {
-  margin-right: 50px;
-  color: #2B292D;
-  text-decoration: none;
-  line-height: 25px;
-  font-size: 18px;
-}
-.navigation__item:last-child {
-  margin-right: 0;
-}
-.navigation__arrow {
-  display: inline-block;
-  height: 5px;
-  width: 8px;
-  margin-left: 11px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-}
-.navigation__item_selected {
-  font-weight: 700;
+  .navigation__item {
+    margin-right: 50px;
+    color: #2B292D;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .navigation__item:last-child {
+    margin-right: 0;
+  }
+  .navigation__arrow {
+    display: inline-block;
+    height: 5px;
+    width: 8px;
+    margin-left: 11px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+  }
+  .navigation__item_selected {
+    font-weight: 700;
+  }
 }
 
 .header__button {
@@ -312,7 +313,6 @@
     height: 50px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
   }
 }
 
@@ -339,6 +339,7 @@
 @media screen and (min-width: 400px) {
   .social-links {
     margin-left: auto;
+    line-height: 50px;
   }
 }
 .social-links__item {
@@ -360,6 +361,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .button-action {
@@ -371,6 +373,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .headline {
@@ -457,6 +460,7 @@
   font-weight: 700;
   font-size: 18px;
   margin-top: 15px;
+  cursor: pointer;
 }
 @media screen and (max-width: 399px) {
   .headline__button-action_light {
@@ -471,7 +475,7 @@
 }
 
 .headline__banner {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 33px;
 }
 @media screen and (min-width: 400px) {
@@ -573,6 +577,12 @@
 .customers .customers__logo {
   filter: brightness(0);
   max-width: 70%;
+}
+
+@media screen and (min-width: 400px) {
+  .customers-bottom {
+    margin-bottom: 89px;
+  }
 }
 
 .features__section {
@@ -891,6 +901,7 @@
   font-weight: 700;
   font-size: 18px;
   margin-top: 12px;
+  cursor: pointer;
 }
 @media screen and (max-width: 399px) {
   .audience__button-action_light {
@@ -1063,10 +1074,15 @@
 .inbox__review-avatar {
   display: flex;
   margin-top: 26px;
-  width: 519px;
+  width: 100%;
+}
+@media screen and (min-width: 400px) {
+  .inbox__review-avatar {
+    width: 519px;
+  }
 }
 .inbox__review-avatar .inbox__avatar {
-  margin-right: 2px;
+  margin-right: 11px;
 }
 .inbox__review-avatar .inbox__avatar-name {
   margin: 0;

@@ -46,3 +46,8 @@
         max-width: 70%;
     }
 }  
+.customers-bottom {
+    @include for-large-up {
+        margin-bottom: 89px;
+    }
+}

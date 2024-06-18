@@ -179,7 +179,6 @@
         height: 50px;
         margin: 0 auto;
         display: flex;
-        align-items: center;
     }
 }
 
@@ -205,6 +204,7 @@
 
     @include for-large-up {
         margin-left: auto;
+        line-height: 50px;
     }
 
     &__item {

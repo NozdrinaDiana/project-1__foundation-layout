@@ -110,10 +110,14 @@
     &__review-avatar {
         display: flex;
         margin-top: 26px;
-        width: 519px;
+        width: 100%;
 
+        @include for-large-up {
+            width: 519px;
+        }
+        
         .inbox__avatar {
-            margin-right: 2px;
+            margin-right: 11px;
         }
 
         .inbox__avatar-name {
