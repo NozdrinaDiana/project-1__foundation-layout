@@ -21,13 +21,13 @@ $color-orange: #F1592B;
 
 
 @mixin for-large-up {
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 1400px) {
         @content;
     }
 }
 
 @mixin for-extra-small {
-    @media screen and (max-width: 399px) {
+    @media screen and (max-width: 1399px) {
         @content;
     }
 }

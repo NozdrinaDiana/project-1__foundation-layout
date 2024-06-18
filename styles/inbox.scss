@@ -115,8 +115,10 @@
         @include for-large-up {
             width: 519px;
         }
-        
+
         .inbox__avatar {
+            width: 40px;
+            height: 40px;
             margin-right: 11px;
         }
 
