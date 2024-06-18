@@ -477,13 +477,13 @@
 .headline__banner {
   max-width: 100%;
   margin-bottom: 33px;
+  display: block;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
     position: relative;
-    margin-top: 8px;
-    margin-left: auto;
-    margin-bottom: 0;
+    margin: 8px 0 0 auto;
     top: 0;
     width: 796px;
     height: 448px;
@@ -990,6 +990,8 @@
 .inbox__decoration-image {
   max-width: 100%;
   margin-bottom: 15px;
+  display: block;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .inbox__decoration-caption {
@@ -1169,6 +1171,8 @@
 .communication__image {
   margin-top: 40px;
   max-width: 100%;
+  display: block;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .communication__image {

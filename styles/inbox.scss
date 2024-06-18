@@ -21,7 +21,9 @@
         
     &__decoration-image {
         max-width: 100%;
-        margin-bottom: 15px;        
+        margin-bottom: 15px;  
+        display: block;
+            margin: auto;
     }
 
     &__decoration-caption {
