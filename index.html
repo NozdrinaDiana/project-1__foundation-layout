@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
+    <title>Foundationlayout</title>
+    <link 
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
@@ -13,11 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -28,15 +24,15 @@
       <div class="top-section">
       <!-- Header -->
         <header class="header">
-          <div class="header__logo">
+          <div class="logo">
             <img
-              class="header__logo-img"
+              class="logo_img"
               src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
               alt="Logo img"
             />
-            <div class="header__logo-text">
-              <div class="header__logo-name">Foundation</div>
-              <div class="header__logo-description">
+            <div class="logo_text">
+              <div class="logo_name">Foundation</div>
+              <div class="logo_description">
                 Startup landing template
               </div>
             </div>
@@ -284,11 +280,11 @@
       
       <!-- Communication -->
        <section class="communication">
-        <div class="communication__top">
-          <div class="communication__top-block">
+        <div class="communication__titles">
+          <div class="communication__titles-block">
             <h4 class="communication__subtitle">Communicate Better</h4>
             <h2 class="communication__title">Built for busy small teams</h2>
-            <p class="communication__top-text">Three products that can be used independently or combined together for your company’s needs.</p>
+            <p class="communication__text">Three products that can be used independently or combined together for your company’s needs.</p>
             <button class="communication__button button-action">Get Started</button>
           </div>
           <figure class="communication__image-block">
@@ -296,27 +292,25 @@
             <figcaption class="communication__image-caption">A better way to acquire new users</figcaption>
           </figure>
         </div>
-
-          <div class="communication__line"></div>
-        
-        <div class="communication__bottom">
+          <div class="communication__line"></div>        
+        <div class="communication__descriptions">
         <div class="communication__description">
           <p class="communication__description-text">
-            <span class="communication__description-span">Subscriptions. </span>
+            <span >Subscriptions. </span>
             Foundation works with the tools and services you already use every day.
           </p>
           <a class="communication__description-link" href="#" target="_blank">Learn more about subscriptions</a>
         </div>
          <div class="communication__description">
           <p class="communication__description-text">
-            <span class="communication__description-span">Flexible Hours. </span>
+            <span >Flexible Hours. </span>
             Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android
           </p>
           <a class="communication__description-link" href="#" target="_blank">Get more info about hours</a>
         </div>
          <div class="communication__description">
           <p class="communication__description-text">
-            <span class="communication__description-span">Fast Communication. </span>
+            <span >Fast Communication. </span>
             Fast Communication. We offer measures like 2FA and SSO to ensure the safety of your data.
           </p>
           <a class="communication__description-link" href="#" target="_blank">Communication guidelines</a>
@@ -356,7 +350,7 @@
 </section>
 
       <!-- Customers -->
-      <section class="customers customers-bottom">
+      <section class="customers customers_bottom">
         <div class="customers__row">
           <div class="customers__item">
             <img
@@ -434,7 +428,7 @@
         <div class="footer__content">
           <div class="footer__information">
             <div class="about-company">
-              <div class="logo">
+              <div class="logo footer__logo">
                 <img
                   class="logo__img"
                   src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
@@ -463,7 +457,6 @@
             </p>
             <div class="footer__downloads">
               <img
-                class="download__img"
                 src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png"
                 alt="Apple Store download"
               />
@@ -477,20 +470,20 @@
             <div class="additional-navigation__column nav-links">
               <h3 class="nav-links__title">Product</h3>
               <ul class="nav-links__list">
-                <li class="nav-links__list-item">Acquire Users</li>
-                <li class="nav-links__list-item">Content Marketing</li>
-                <li class="nav-links__list-item">Website Templates</li>
-                <li class="nav-links__list-item">Customer Management</li>
-                <li class="nav-links__list-item">Virtual Inbox</li>
+                <li class="nav-links__list-item"><a>Acquire Users</a></li>
+                <li class="nav-links__list-item"><a>Content Marketing</a></li>
+                <li class="nav-links__list-item"><a>Website Templates</a></li>
+                <li class="nav-links__list-item"><a>Customer Management</a></li>
+                <li class="nav-links__list-item"><a>Virtual Inbox</a></li>
               </ul>
             </div>
             <div class="additional-navigation__column nav-links">
               <h3 class="nav-links__title">Company</h3>
               <ul class="nav-links__list">
-                <li class="nav-links__list-item">About Foundation</li>
-                <li class="nav-links__list-item">Brand Guidelines</li>
-                <li class="nav-links__list-item">Press Kit</li>
-                <li class="nav-links__list-item">Support</li>
+                <li class="nav-links__list-item"><a>About Foundation</a></li>
+                <li class="nav-links__list-item"><a>Brand Guidelines</a></li>
+                <li class="nav-links__list-item"><a>Press Kit</a></li>
+                <li class="nav-links__list-item"><a>Support</a></li>
               </ul>
             </div>
           </div>

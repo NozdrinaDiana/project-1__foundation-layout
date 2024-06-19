@@ -1,33 +1,31 @@
 $color-primary: #fff;
-$color-secondary: #F3C6BD;
-$color-accent: #3040C4;
-$color-text: #2B292D;
-$color-light: #F4F5F7;
-$color-light-border: #E3E3E3;
-$color-green: #009B4D;
-$color-blue: #3142C6;
-$color-blue-communication: #0189D1;
-$color-blue-background:#3141C5;
-$color-dark: #2B292D26;
-$color-light-grey: #2B292D99;
+$color-secondary: #f3c6bd;
+$color-accent: #3040c4;
+$color-text: #2b292d;
+$color-light: #f4f5f7;
+$color-light-border: #e3e3e3;
+$color-green: #009b4d;
+$color-blue: #3142c6;
+$color-blue-communication: #0189d1;
+$color-blue-background: #3141c5;
+$color-dark: #2b292d26;
+$color-light-grey: #2b292d99;
 
-$color-light-blue: #00A1C612;
+$color-light-blue: #00a1c612;
 $color-dark-border: #00000026;
-$color-blue-border: #0185D0;
+$color-blue-border: #0185d0;
 $color-black: #000;
 $color-light-background: #fcf0e366;
-$color-orange: #F1592B;
-
-
+$color-orange: #f1592b;
 
 @mixin for-large-up {
-    @media screen and (min-width: 1400px) {
-        @content;
-    }
+  @media screen and (min-width: 1400px) {
+    @content;
+  }
 }
 
 @mixin for-extra-small {
-    @media screen and (max-width: 1399px) {
-        @content;
-    }
+  @media screen and (max-width: 1399px) {
+    @content;
+  }
 }

@@ -11,14 +11,14 @@
 @import 'audience.scss';
 @import 'inbox.scss';
 @import 'communication.scss';
+@import 'logo.scss';
 
-
- * {
-   box-sizing: border-box;
- }
+* {
+  box-sizing: border-box;
+}
 
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   color: $color-text;
 }
@@ -27,15 +27,9 @@ html {
 
   @include for-large-up {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
   }
 }
-
-
-
-
-
-

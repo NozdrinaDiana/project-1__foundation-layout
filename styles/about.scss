@@ -1,42 +1,40 @@
 .about {
-    width: 100%;
-    padding: 46px 15px;
-    background-color: $color-light;
+  width: 100%;
+  padding: 46px 15px;
+  background-color: $color-light;
 
-    @include for-large-up {
-        display: flex;
-        width: 1400px;
-        margin: auto;
-        justify-content: space-between;
-        padding: 77px 130px 76px;
-    }
+  @include for-large-up {
+    display: flex;
+    width: 1400px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 77px 130px 76px;
+  }
 }
 .article {
-    
+  &:last-child {
+    margin-top: 20px;
+  }
+
+  @include for-large-up {
+    width: 555px;
+
     &:last-child {
-        margin-top: 20px;
+      margin-top: 0;
     }
+  }
 
-    @include for-large-up {
-        width: 555px;
+  &__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+  }
 
-        &:last-child {
-            margin-top: 0;
-        }
-    }
-
-    &__title {
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 32px;
-        margin: 0;
-    }
-
-    &__text {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 0;
-        margin-top: 6px;
-    }
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 0;
+    margin-top: 6px;
+  }
 }
-
