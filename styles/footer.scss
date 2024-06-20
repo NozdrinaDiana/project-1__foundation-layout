@@ -11,6 +11,7 @@
       margin: auto;
     }
   }
+
   &__information {
     border-bottom: 1px solid $color-light-border;
     width: 100%;
@@ -22,11 +23,13 @@
       border: none;
     }
   }
+
   .about-company {
     @include for-large-up {
       margin-top: 44px;
     }
   }
+
   &__description {
     display: none;
 
