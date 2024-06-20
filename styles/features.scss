@@ -1,17 +1,22 @@
-.features__section {
+.features {
   display: flex;
   position: relative;
 
   @include for-extra-small {
     display: none;
   }
-}
-.img-decoration {
-  position: absolute;
-  top: 258px;
+
+  &__img-decoration {
+    position: absolute;
+    top: 258px;
+  }
+  &__banner {
+    position: absolute;
+    right: 0;
+  }
 }
 
-.features {
+.feature {
   width: 1140px;
   display: flex;
   margin: auto;
@@ -80,9 +85,4 @@
     line-height: 26px;
     margin-left: 15px;
   }
-}
-
-.features__banner {
-  position: absolute;
-  right: 0;
 }

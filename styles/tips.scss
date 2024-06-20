@@ -44,11 +44,11 @@
     margin-top: 30px;
     align-items: center;
   }
-  .tip__image {
+  &__image {
     flex: 1;
   }
 
-  .tip__image-caption {
+  &__image-caption {
     margin-top: 19px;
     font-size: 14px;
     line-height: 22px;

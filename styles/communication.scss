@@ -120,12 +120,12 @@
     }
   }
 
-  span {
-    font-weight: 700;
-  }
-
   &__description-text {
     margin: 0;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   &__description-link {

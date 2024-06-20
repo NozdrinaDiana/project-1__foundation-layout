@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
 
-  &_img {
+  &__img {
     height: 48px;
     width: 48px;
     margin-left: 15px;
@@ -17,7 +17,7 @@
     }
   }
 
-  &_text {
+  &__text {
     @include for-large-up {
       display: flex;
       flex-direction: column;
@@ -25,13 +25,13 @@
     }
   }
 
-  &_name {
+  &__name {
     font-size: 20px;
     line-height: 25px;
     font-weight: 700;
   }
 
-  &_description {
+  &__description {
     display: none;
 
     @include for-large-up {
@@ -42,14 +42,13 @@
       opacity: 0.6;
     }
   }
-}
 
-.footer__logo {
-  @include for-extra-small {
-    display: none;
+  &__footer {
+    @include for-extra-small {
+      display: none;
+    }
   }
 }
-
 .logo-vertical {
   display: flex;
   flex-direction: column;

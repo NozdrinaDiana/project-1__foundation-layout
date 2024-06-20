@@ -89,8 +89,7 @@
     padding: 30px 20px;
     margin-top: 30px;
     background-color: $color-primary;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-      inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px 0 #0000000d, 0 1px 3px 0 #0000001a, inset 0 1px 0 0 #ffffff1a;
     border-bottom: 4px solid $color-blue-border;
 
     @include for-large-up {
@@ -105,7 +104,7 @@
     font-size: 20px;
     line-height: 28px;
 
-    .inbox__review-span {
+    span {
       font-weight: 700;
     }
   }
@@ -118,25 +117,24 @@
     @include for-large-up {
       width: 519px;
     }
+  }
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+  }
 
-    .inbox__avatar {
-      width: 40px;
-      height: 40px;
-      margin-right: 11px;
-    }
+  &__avatar-name {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+  }
 
-    .inbox__avatar-name {
-      margin: 0;
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 700;
-    }
-
-    .inbox__avatar-profession {
-      margin: 0;
-      font-size: 16px;
-      line-height: 22px;
-      color: $color-light-grey;
-    }
+  &__avatar-profession {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-light-grey;
   }
 }

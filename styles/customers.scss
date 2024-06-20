@@ -22,7 +22,7 @@
       align-items: center;
     }
   }
-  .customers__item {
+  &__item {
     height: 97px;
     flex: 1;
     border-bottom: 1px solid $color-light-border;
@@ -41,13 +41,15 @@
       border-right: none;
     }
   }
-  .customers__logo {
+
+  &__logo {
     filter: brightness(0);
     max-width: 70%;
   }
-}
-.customers_bottom {
-  @include for-large-up {
-    margin-bottom: 89px;
+
+  &_bottom {
+    @include for-large-up {
+      margin-bottom: 89px;
+    }
   }
 }
