@@ -43,7 +43,7 @@
     }
   }
 
-  &__footer {
+  &_footer {
     @include for-extra-small {
       display: none;
     }
