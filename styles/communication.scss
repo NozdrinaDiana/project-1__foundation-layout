@@ -7,13 +7,13 @@
     max-width: 1140px;
   }
 
-  &__titles {
+  &__top-wrapper {
     @include for-large-up {
       display: flex;
     }
   }
 
-  &__titles-block {
+  &__content {
     @include for-large-up {
       max-width: 462px;
       margin-right: 193px;
@@ -49,16 +49,18 @@
   }
 
   &__text {
-    margin: 18px 0 30px 0;
+    margin: 18px 0 27px 0;
     font-size: 24px;
     line-height: 34px;
 
     @include for-large-up {
-      margin-top: 30px 0 39px 0;
+      margin: 30px 0 39px 0;
     }
   }
 
   &__button {
+    margin-bottom: 40px;
+
     @include for-large-up {
       margin-bottom: 87px;
     }
@@ -69,7 +71,6 @@
   }
 
   &__image {
-    margin-top: 40px;
     max-width: 100%;
     display: block;
     margin: auto;

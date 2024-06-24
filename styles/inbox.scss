@@ -27,25 +27,25 @@
   }
 
   &__decoration-caption {
+    display: none;
+
     @include for-large-up {
+      display: block;
+      margin-top: 17px;
       font-style: 14px;
       line-height: 22px;
       color: $color-light-grey;
     }
-
-    @include for-extra-small {
-      display: none;
-    }
   }
 
-  &__description {
+  &__content {
     @include for-large-up {
       margin-left: 28px;
       width: 461px;
     }
   }
 
-  &__description-subtitle {
+  &__subtitle {
     margin: 0;
     margin-top: 32px;
     font-size: 22px;
@@ -58,7 +58,7 @@
     }
   }
 
-  &__description-title {
+  &__title {
     margin: 0;
     margin-top: 17px;
     font-size: 40px;
@@ -74,7 +74,7 @@
     }
   }
 
-  &__description-text {
+  &__description {
     margin: 0;
     margin-top: 18px;
     font-size: 24px;
@@ -84,22 +84,21 @@
       margin-top: 30px;
     }
   }
+}
+.review {
+  padding: 30px 20px;
+  margin-top: 30px;
+  background-color: $color-primary;
+  box-shadow: 0 4px 6px 0 #0000000d, 0 1px 3px 0 #0000001a, inset 0 1px 0 0 #ffffff1a;
+  border-bottom: 4px solid $color-blue-border;
 
-  &__review {
-    padding: 30px 20px;
-    margin-top: 30px;
-    background-color: $color-primary;
-    box-shadow: 0 4px 6px 0 #0000000d, 0 1px 3px 0 #0000001a, inset 0 1px 0 0 #ffffff1a;
-    border-bottom: 4px solid $color-blue-border;
-
-    @include for-large-up {
-      margin-top: 44px;
-      padding: 30px 30px 24px 30px;
-      width: 519px;
-    }
+  @include for-large-up {
+    margin-top: 44px;
+    padding: 30px 30px 24px 30px;
+    width: 519px;
   }
 
-  &__review-text {
+  &__text {
     margin: 0;
     font-size: 20px;
     line-height: 28px;
@@ -109,7 +108,7 @@
     }
   }
 
-  &__review-avatar {
+  &__author {
     display: flex;
     margin-top: 26px;
     width: 100%;
@@ -119,20 +118,20 @@
     }
   }
 
-  &__avatar {
+  &__author-image {
     width: 40px;
     height: 40px;
     margin-right: 11px;
   }
 
-  &__avatar-name {
+  &__author-name {
     margin: 0;
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
   }
 
-  &__avatar-profession {
+  &__author-title {
     margin: 0;
     font-size: 16px;
     line-height: 22px;
