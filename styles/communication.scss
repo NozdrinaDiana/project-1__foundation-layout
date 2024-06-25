@@ -60,9 +60,11 @@
 
   &__button {
     margin-bottom: 40px;
+    width: 160px;
 
     @include for-large-up {
       margin-bottom: 87px;
+      width: 160px;
     }
   }
 

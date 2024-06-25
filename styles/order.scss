@@ -72,12 +72,10 @@
 
   &__button {
     margin-top: 12px;
-
-    @include for-extra-small {
-      width: 100%;
-    }
+    width: 100%;
 
     @include for-large-up {
+      width: 160px;
       margin-top: 0;
       margin-left: 10px;
       flex-shrink: 0;

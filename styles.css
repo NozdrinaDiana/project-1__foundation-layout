@@ -10,7 +10,6 @@
 
 .button-action {
   height: 48px;
-  width: 160px;
   border: none;
   border-radius: 2px;
   background-color: #3040c4;
@@ -27,7 +26,6 @@
 .button-action_light {
   width: 100%;
   height: 48px;
-  width: 160px;
   border: none;
   border-radius: 2px;
   background-color: #fff;
@@ -37,6 +35,12 @@
   font-size: 18px;
   margin-top: 12px;
   cursor: pointer;
+}
+@media screen and (min-width: 1400px) {
+  .button-action_light {
+    margin-left: 10px;
+    margin-top: 0;
+  }
 }
 
 .header {
@@ -95,15 +99,15 @@
   .navigation__item:last-child {
     margin-right: 0;
   }
+  .navigation__item_selected {
+    font-weight: 700;
+  }
   .navigation__arrow {
     display: inline-block;
     height: 5px;
     width: 8px;
     margin-left: 11px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-  }
-  .navigation__item_selected {
-    font-weight: 700;
   }
 }
 
@@ -277,7 +281,6 @@
 
 .button-action {
   height: 48px;
-  width: 160px;
   border: none;
   border-radius: 2px;
   background-color: #3040c4;
@@ -294,7 +297,6 @@
 .button-action_light {
   width: 100%;
   height: 48px;
-  width: 160px;
   border: none;
   border-radius: 2px;
   background-color: #fff;
@@ -304,6 +306,12 @@
   font-size: 18px;
   margin-top: 12px;
   cursor: pointer;
+}
+@media screen and (min-width: 1400px) {
+  .button-action_light {
+    margin-left: 10px;
+    margin-top: 0;
+  }
 }
 
 .headline {
@@ -379,16 +387,8 @@
   }
 }
 .headline__button-action_light {
-  width: 100%;
-  height: 48px;
-  border: none;
-  border-radius: 2px;
-  background-color: #fff;
   color: #3040c4;
-  font-weight: 700;
-  font-size: 18px;
   margin-top: 15px;
-  cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
   .headline__button-action_light {
@@ -715,14 +715,11 @@
 }
 .order__button {
   margin-top: 12px;
-}
-@media screen and (max-width: 1399px) {
-  .order__button {
-    width: 100%;
-  }
+  width: 100%;
 }
 @media screen and (min-width: 1400px) {
   .order__button {
+    width: 160px;
     margin-top: 0;
     margin-left: 10px;
     flex-shrink: 0;
@@ -815,8 +812,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__button-action_light {
-    margin-left: 10px;
-    margin-top: 0;
+    width: 160px;
   }
 }
 .audience__user-cards {
@@ -1068,10 +1064,12 @@
 }
 .communication__button {
   margin-bottom: 40px;
+  width: 160px;
 }
 @media screen and (min-width: 1400px) {
   .communication__button {
     margin-bottom: 87px;
+    width: 160px;
   }
 }
 .communication__image-block {
